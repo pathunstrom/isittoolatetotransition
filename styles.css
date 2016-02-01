@@ -1,0 +1,21 @@
+body {
+	/* CSS background, adapted from http://lea.verou.me/css3patterns/#seigaiha */
+	background-color:#FAFAFA;
+	background-image: 
+	radial-gradient(circle at 100% 150%, #FAFAFA 24%, white 25%, white 28%, #FAFAFA 29%, #FAFAFA 36%, white 36%, white 40%, transparent 40%, transparent),
+	radial-gradient(circle at 0    150%, #FAFAFA 24%, white 25%, white 28%, #FAFAFA 29%, #FAFAFA 36%, white 36%, white 40%, transparent 40%, transparent),
+	radial-gradient(circle at 50%  100%, white 10%, #FAFAFA 11%, #FAFAFA 23%, white 24%, white 30%, #FAFAFA 31%, #FAFAFA 43%, white 44%, white 50%, #FAFAFA 51%, #FAFAFA 63%, white 64%, white 71%, transparent 71%, transparent),
+	radial-gradient(circle at 100% 50%, white 5%, #FAFAFA 6%, #FAFAFA 15%, white 16%, white 20%, #FAFAFA 21%, #FAFAFA 30%, white 31%, white 35%, #FAFAFA 36%, #FAFAFA 45%, white 46%, white 49%, transparent 50%, transparent),
+	radial-gradient(circle at 0    50%, white 5%, #FAFAFA 6%, #FAFAFA 15%, white 16%, white 20%, #FAFAFA 21%, #FAFAFA 30%, white 31%, white 35%, #FAFAFA 36%, #FAFAFA 45%, white 46%, white 49%, transparent 50%, transparent);
+	background-size:100px 50px;
+}
+
+h1 {
+	text-align: center;
+	padding: 1em;
+
+	font-family:'Arial Black', 'Arial Bold', Gadget, sans-serif;
+	font-size: 64px;
+}
+
+em { font-style: normal; }
